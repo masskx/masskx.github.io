@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+
+}
+body{
+    background-color: #efefef;
+}
+/* 头部部分 */
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #3f3f3f;
+}
+.header-main{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+/* 左边logo图片 */
+.header-main>img{
+    float: left;
+    padding-top: 5px;
+}
+/* 右边搜索框 */
+.header-search{
+    float: right;
+    position: relative;
+}
+.header-search input{
+    border: 0;
+    outline: none;
+    background: #585858;
+    width: 180px;
+    height: 28px;
+    border-radius: 20px;
+    text-indent: 15px;
+}
+.header-search img{
+    position: absolute;
+    right: 12px;
+    top: 4px;
+}
+
+/* nav导航栏部分 */
+
+.nav-title{
+    width: 100%;
+    height: 60px;
+    background-color: #edd82e;
+    opacity: 0.8;
+}
+.nav-title ul{
+    width: 800px;
+    float: right;
+    margin-right: 50px;
+}
+.nav-title li{
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+
+}
+.nav-title li a{
+    display: inline-block;
+    text-align: center;
+}
+.nav-title li a img{
+    vertical-align: -9px;
+}
+
+/* 页脚部分 */
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #141414;
+}
+.footer-main{
+    width: 1080px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+.footer-item{
+    width: 360px;
+    float: left;
+    margin-top: 20px;
+}
+.footer-item h2{
+    color: #fff;
+    margin-bottom: 24px;
+}
+.footer-item ul li{
+    color: #848485;
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+}
+.footer-item p{
+    color: #848485;
+    padding: 5px 0;
+}
+.footer-item p img{
+    vertical-align: -6px;
+}
+.bottom-container{
+    width:80%;
+    /*border: 1px solid red;*/
+    color: #0c0c0c;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.bottom-container p{
+    color: #4b4a4a;
+}
+.bottom{
+    background: #0c0c0c;
+    padding-top: 20px;
+    height: 100px;
+    text-align: center;
+}

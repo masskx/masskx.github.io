@@ -1,0 +1,43 @@
+
+/*公司简介*/
+.container{
+    width:1200px;
+    margin: 30px auto;
+    /*border: 1px solid red;*/
+}
+.border{
+    width: 20px;
+    height: 20px;
+    border-left: 4px solid #fae843;
+    margin-right: 20px;
+    color:#626161;
+}
+.p-title{
+    font-size:40px;
+    margin: 20px
+}
+.p-main{
+    background-color: #ffffff;
+    height: 440px;
+    padding: 30px 90px;
+}
+.p-main img{
+    margin-bottom: 24px;
+}
+.p-main p{
+    text-indent: 32px;
+}
+/*企业理念*/
+
+.i-title{
+    font-size:40px;
+    margin: 20px
+}
+.i-main{
+    background-color: #ffffff;
+    height: 45px;
+    padding: 30px 90px;
+}
+.i-main p{
+    text-indent: 32px;
+}
