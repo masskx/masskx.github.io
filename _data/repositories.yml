@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - masskx
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - masskx/loop-rag-engineering-lab
+  - masskx/HSI-Learning
+  - masskx/plug-and-play-module
+  - masskx/MSClaw
+  - masskx/PSA-Fusion

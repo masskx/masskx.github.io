@@ -1,34 +1,47 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI Research Engineer · RAG & Agents · Remote Sensing
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: masskx-avatar.png
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Yan'an University</p>
+    <p>Yan'an, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: false
+  limit: 3
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: false
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+你好，我是 **Shuai Ma（马帅）**。
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+我是一名面向科研场景的 AI 工程实践者，关注 **RAG、AI Agents、可验证工作流**，以及 **高光谱遥感图像分析**。我希望把研究原型变成结构清晰、可运行、可观察、可复现的工程项目。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+目前我主要在做三件事：
+
+- 构建带有质量门、查询改写、循环预算与完整运行轨迹的 RAG 系统；
+- 探索适用于科研与知识工作的智能体工作流和可复用 Skills；
+- 整理高光谱图像分类的工程代码与中文教学资源。
+
+## Featured work
+
+- **[Loop RAG Engineering Lab](https://github.com/masskx/loop-rag-engineering-lab)** — 将检索、回答、评估、查询改写和停止条件组织成可观察的闭环 RAG 工作流。
+- **[HSI-Learning](https://github.com/masskx/HSI-Learning)** — 从数据读取到 SVM、CNN、HybridSN、SSRN 和 Transformer 的高光谱分类学习路径。
+- **[Plug-and-Play Module](https://github.com/masskx/plug-and-play-module)** — 面向论文即插即用模块提取的 Agent Skill。
+
+[查看全部项目](/projects/) · [浏览 GitHub 仓库](/repositories/) · [通过邮件联系我](mailto:ms_skx@163.com)
+
+> 他强任他强，清风拂山岗；他横由他横，明月照大江。
