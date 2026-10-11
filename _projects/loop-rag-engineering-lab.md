@@ -5,6 +5,10 @@ description: Observable RAG with evaluation, query rewriting, budgets, and execu
 importance: 1
 category: AI Engineering
 ---
+A closed-loop engineering lab for advanced RAG learners. Retrieval, answering, quality evaluation, query rewriting, and re-retrieval are modeled as an explicit LangGraph workflow, with rule-based + LLM-judge quality gates, loop budgets, and full JSON run traces. The quality-gate tests run without any model calls.
+
+<details markdown="1">
+<summary>中文介绍</summary>
 
 一个面向 RAG 进阶学习者的闭环工程实验室。项目把检索、回答、质量评估、查询改写和再次检索组织为显式的 LangGraph 工作流。
 
@@ -15,5 +19,7 @@ category: AI Engineering
 - 查询改写与逐轮扩大检索范围；
 - 保存完整 JSON 运行轨迹，便于观察和复盘；
 - 无需调用模型即可运行的质量门测试。
+
+</details>
 
 [View source on GitHub →](https://github.com/masskx/loop-rag-engineering-lab)

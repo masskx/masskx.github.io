@@ -9,7 +9,7 @@ last_name: Ma
 contact_note: >
   Open to research collaboration and AI engineering projects.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Shuai Ma's portfolio — RAG, AI agents, research engineering, and hyperspectral remote sensing.
+  Shuai Ma (马帅) — RAG, AI agents, research engineering, and hyperspectral remote sensing. 个人主页。
 footer_text: >
   Built with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> and hosted on GitHub Pages.
 keywords: AI engineering, RAG, AI agents, LangGraph, remote sensing, hyperspectral image classification
